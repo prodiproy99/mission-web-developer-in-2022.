@@ -35,20 +35,27 @@ body{
 .color-green{
     color: #5bd85b;
 }
-.left-side, .right-side{
+
+ .left-side{
+     width: 40%;
+ }
+ .right-side{
     width: 40%;
 }
-
 .right-side img{
-    width: 80%;
+    width: 70%;
 }
 
-
-.my-mission-2022{
-    width: 80%;
-    margin: 0 auto;
+.my-mission-2022 {
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+.my-mission-2022 .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .my-mission-2022 h1{
     text-align: center;
@@ -56,10 +63,7 @@ body{
     font-size: 40px;
     font-weight: 800;
 }
-.my-mission-2022-boxs{
-    display: flex;
-    justify-content: space-between;
-}
+ 
 .box{
     width: 26.22%;
     background-color: rgb(255, 232, 232);
@@ -83,4 +87,23 @@ p{
     display: flex;
     width: 80%;
     margin: 0 auto;
+}
+.our-Community{
+    margin-top: 50px;
+}
+.our-Community .container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #222222;
+    color: #fff;
+    margin-top: 70px;
+}
+footer p{
+    color: #fff;
 }
