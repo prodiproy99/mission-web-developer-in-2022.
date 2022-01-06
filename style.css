@@ -107,3 +107,63 @@ footer{
 footer p{
     color: #fff;
 }
+.my-skill{
+    margin-top: 50px;
+}
+.my-skill .container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.my-skill .container .left-side img{
+    
+    width: 80%;
+    border-radius: 10px;
+     
+}
+#tittle{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact-me {
+     
+    margin-top: 70px;
+}
+
+.contact-me .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ 
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 18px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 18px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    resize: vertical; 
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    
+  }
