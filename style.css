@@ -3,7 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.hero-banner .container{
+.container{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -14,65 +14,7 @@ body{
     border-left: 4px solid #9ACD32;
     padding: 5px;
 }
-.hero-banner p{
-    font-size: 16px;
-    line-height: 27px;
-    color: #282828;
-    margin-top: -10px;
-    padding-bottom: 8px;
-     
-}
-.btn{
-    background-color: #9ACD32;
-    color: #fff;
-    padding: 10px 22px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 700;
-    
-}
-.color-green{
-    color: #5bd85b;
-}
 
- .left-side{
-     width: 40%;
- }
- .right-side{
-    width: 40%;
-}
-.right-side img{
-    width: 70%;
-}
-
-.my-mission-2022 {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.my-mission-2022 .container{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.my-mission-2022 h1{
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 40px;
-    font-weight: 800;
-}
- 
-.box{
-    width: 26.22%;
-    background-color: rgb(255, 232, 232);
-    padding: 20px;
-    border-radius: 30px;
-}
-.box img{
-    width: 50%; 
-}
 p{
     
     font-size: 14px;
@@ -80,24 +22,132 @@ p{
     color: #282828;
      
 }
+
+.btn{
+    background-color: #9ACD32;
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.btn:hover {
+    background-color: #a1df27;
+  }
+
+h5{
+    margin-top: 50px;
+    color: #282828;
+    font-size: 12px;
+}
+.color-green{
+    color: #5bd85b;
+}
+
+ .left-side{
+     width: 50%;
+ }
+ .right-side{
+    width: 50%;
+}
+.right-side img{
+    width: 80%;
+}
+
+.my-mission-2022 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.my-mission-2022 h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+ .mission{
+    background-color: #EDF5F6;
+ }
+ .vission{
+    background-color: #FFEEEE;
+ }
+ .goals{
+    background-color: #FFF4D6;
+ }
+.box{
+    width: 26%;
+    padding: 30px;
+    border-radius: 30px;
+}
+.box img{
+    width: 50%; 
+}
+
 .left-side img{
     width: 80%;
 }
-.Develop-Without-Limits .container{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-}
+
 .our-Community{
+    margin-top: 80px;
+}
+ 
+h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+ 
+ 
+#tittle{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact-us{
+     
     margin-top: 50px;
 }
-.our-Community .container{
-    display: flex;
-    justify-content: space-between;
+
+.contact-us .container{
     width: 80%;
     margin: 0 auto;
 }
-footer{
+
+.form {
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    
+}
+
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 18px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+  }
+  input[type=submit] {
+    background-color: #9ACD32;
+    color: white;
+    padding: 16px 32px;
+    margin: 18px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a1df27;
+  }
+  
+
+  footer{
     text-align: center;
     padding: 20px;
     background-color: #222222;
@@ -107,63 +157,3 @@ footer{
 footer p{
     color: #fff;
 }
-.my-skill{
-    margin-top: 50px;
-}
-.my-skill .container{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-}
-.my-skill .container .left-side img{
-    
-    width: 80%;
-    border-radius: 10px;
-     
-}
-#tittle{
-    text-align: center;
-    font-size: 40px;
-}
-
-.contact-me {
-     
-    margin-top: 70px;
-}
-
-.contact-me .container{
-    width: 80%;
-    margin: 0 auto;
-}
-
- 
-  input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 18px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical; 
-  }
-  input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px;
-    margin: 18px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    resize: vertical; 
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .form {
-    padding: 50px;
-    border-radius: 5px;
-    background-color: #f7f7f7;
-    
-  }
