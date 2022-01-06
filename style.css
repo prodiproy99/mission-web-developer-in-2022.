@@ -3,7 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.hero-banner{
+.hero-banner .container{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -22,7 +22,7 @@ body{
     padding-bottom: 8px;
      
 }
-.hero-banner .btn{
+.btn{
     background-color: #9ACD32;
     color: #fff;
     padding: 10px 22px;
@@ -42,6 +42,7 @@ body{
 .right-side img{
     width: 80%;
 }
+
 
 .my-mission-2022{
     width: 80%;
@@ -74,4 +75,12 @@ p{
     line-height: 24px;
     color: #282828;
      
+}
+.left-side img{
+    width: 80%;
+}
+.Develop-Without-Limits .container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
