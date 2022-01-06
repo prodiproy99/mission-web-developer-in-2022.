@@ -42,3 +42,36 @@ body{
 .right-side img{
     width: 80%;
 }
+
+.my-mission-2022{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.my-mission-2022 h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.my-mission-2022-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 26.22%;
+    background-color: rgb(255, 232, 232);
+    padding: 20px;
+    border-radius: 30px;
+}
+.box img{
+    width: 50%; 
+}
+p{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: #282828;
+     
+}
